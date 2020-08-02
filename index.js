@@ -4,7 +4,6 @@ const cors = require('cors');
 const app = express();
 const PORT = 5000;
 const db = require('./queries');
-const jwtauth = require('./auth/jwtauth');
 
 app.use(bodyParser.json());
 app.use(
